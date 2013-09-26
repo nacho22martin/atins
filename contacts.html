@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8>
+<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<title>Contacts</title>
+</head>
+<body class="temp_06">
+<div id="container">
+  <div id="wrap">
+    <div class="aside">
+     <div id="logo">
+         <h2><a href="index.html">Brian <br /> Brown</a></h2>
+         <h4>photography</h4>
+     </div><!--/ logo-->
+     
+     <div class="nav-menu">
+        <ul class="menu">
+          <li>
+                <a class="pic_01" href="index.html">Home</a>
+                <ul>
+                    <li><a href="index.html">Slideshow</a></li>
+                    <li><a href="index_thumbs.html">Slideshow with Thumbs</a></li>
+                    <li><a href="index_video_bg.html">Video Background</a></li>                    	
+                </ul>
+          </li>
+          <li><a class="pic_02" href="photos.html">Photos</a></li>
+          <li><a class="pic_03" href="videos.html">Videos</a></li>
+          <li><a class="pic_04" href="blog.html">Blog</a></li>
+          <li><a class="pic_05" href="about.html">About</a></li>
+          <li class="current"><a class="pic_06 active" href="contacts.html">Contacts</a></li>
+        </ul><!--/ menu-->
+     </div><!--/ nav-menu-->
+    </div><!--/ aside-->
+     
+  <div class="wrap-contacts">
+     <div class="container_11">
+        <div id="main">
+         <h3>Contact Us</h3>
+		 <img src="images/map.jpg" width="440" height="200" alt="" />
+         <div class="contact_form">
+          		<form id="contact_form" class="postForm" method="post"> 
+					<div>
+						<input type="text" id="name" name="name" onblur="if(this.value == ''){this.value = 'Name*'};" onfocus="if(this.value == 'Name*'){this.value = ''};" value="Name*" class="text" />	
+					</div>
+					<div>
+						<input type="text" id="email" name="email" onblur="if(this.value == ''){this.value = 'Email*'};" onfocus="if(this.value == 'Email*'){this.value = ''};" value="Email*" class="text" />
+  
+					</div>
+					<div>
+						<textarea cols="3" rows="3" id="message" onblur="if(this.value == ''){this.value = 'Message*'};" onfocus="if(this.value == 'Message*'){this.value = ''};" name="message">Message*</textarea>
+					</div>
+					<input type="submit" value="Send Message" class="submit" name="submit" />
+				</form>
+                
+            </div>                 
+                
+		</div><!--/ main-->
+ 
+  <div id="sidebar">
+        <div id="twitter">
+            <h3>Latest Tweets</h3>
+            <ul class="tweets">
+              <li><a href="#">@jasicarainanderson</a> Fermentum dictum magna. Sed laoreet aliquam.</li>
+              <li><a href="#">@samanthagrosh</a> Aliquam erat volutp. Duis ac turpis. Integer rutrum ante eu lacus.</li>
+              <li><a href="#">@alanjohnson</a> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor. </li>
+              <li><a href="#">@johnpool</a> Duis ac turpis. Donec sit amet eros.</li>
+              <li><a href="#">@oliviasmith</a> Mauris fermentum dictum magna. Sed laoreet aliquam. </li>
+          </ul>
+          </div><!--/ twitter-->
+       </div><!--/ sidebar-->
+    </div><!--/ container_11--> 
+  </div><!--/ wrap-contacts-->
+</div><!--/ wrap-->
+
+  <div id="footer">
+    <div class="footer-in">
+       <div class="copyright">copyright 2011 Brian Brown Photography. All Rights Reserved.</div>
+       <ul class="social">
+         <li class="tw"><a href="#">Twitter</a></li>
+         <li class="fb"><a href="#">Facebook</a></li>
+         <li class="in"><a href="#">LinkedIn</a></li>
+       </ul>
+       </div><!--/ footer-in-->   
+ </div><!--/ footer--> 
+</div><!--/ container-->
+	<script type="text/javascript" src="js/jquery-1.6.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery.tipsy.js"></script>
+	<script type="text/javascript" src="js/contact_form.js"></script>
+    <script src="//static.getclicky.com/js" type="text/javascript"></script>
+	<script type="text/javascript">try{ clicky.init(66506253); }catch(e){}</script>
+    <noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/66506253ns.gif" /></p></noscript>
+</body>
+</html>

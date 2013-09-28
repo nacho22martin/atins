@@ -328,6 +328,7 @@ ul.menu li ul li a:hover, ul.menu li ul li.current a { color:#079be5 !important;
 	min-width:800px;
 	margin-left:190px;
 	z-index:50;
+	overflow: auto;
 } 
 
 .wrapper {
@@ -363,7 +364,8 @@ ul.menu li ul li a:hover, ul.menu li ul li.current a { color:#079be5 !important;
 } 
 
 #middle h4, #main h4 {
-    margin-bottom:20px;
+    margin-bottom:1em;
+    margin-top: 2em;
 	font-size:16px;
 	color:#f6f6f6;
 	text-transform:uppercase;
@@ -900,7 +902,7 @@ ul.social .in:hover {
   width: 150px;
   height:150px;
   margin-right: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 27px;
   overflow: hidden;
   position: relative;  
 }

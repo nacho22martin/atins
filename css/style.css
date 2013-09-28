@@ -348,6 +348,16 @@ ul.menu li ul li a:hover, ul.menu li ul li.current a { color:#079be5 !important;
 	letter-spacing:1px;
 } 
 
+#middle h4, #main h4 {
+    margin-bottom:20px;
+	font-size:16px;
+	color:#f6f6f6;
+	text-transform:uppercase;
+	font-family: 'CicleGordita';
+	font-weight:normal;
+	letter-spacing:1px;
+} 
+
 	
 .scroll-pane {
 	width: 100%;

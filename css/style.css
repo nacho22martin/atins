@@ -137,7 +137,19 @@ body.temp_06 {
 .container_11.nobg {
 	background-image:none !important;
 } 
+
+.container_12 {
+	margin-bottom:50px;
+	width: 760px;
+	overflow:hidden;
+	background:url(../images/bg_container.png) repeat-y rgba(29, 29, 29, 0.78);
+}
+
+.container_12.nobg {
+	background-image:none !important;
+} 
 	
+
 #container {
     position:relative;
 	min-height:100%;	
@@ -151,10 +163,12 @@ body.temp_06 {
 
 .col {
 	float:left}
+
 	
 .col_right {
     float:right;	
 }
+
 
 /* Wrap */
 

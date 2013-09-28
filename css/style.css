@@ -129,6 +129,7 @@ body.temp_06 {
 
 .container_11 {
 	margin-bottom:50px;
+	border-radius: 10px;
 	width: 760px;
 	overflow:hidden;
 	background:url(../images/bg_container.png) repeat-y #1d1d1d;
@@ -140,6 +141,7 @@ body.temp_06 {
 
 .container_12 {
 	margin-bottom:50px;
+	border-radius: 10px;
 	width: 760px;
 	overflow:hidden;
 	background:url(../images/bg_container.png) repeat-y rgba(29, 29, 29, 0.78);

@@ -5,7 +5,7 @@
  */
 
 #YOUR E-MAIL
-define('TO', 'mail here');
+define('TO', 'nacho22martin@gmail.com');
 ##E-MAIL SUBJECT
 define('SUBJECT', 'Contact Form!');
 

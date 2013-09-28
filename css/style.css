@@ -379,7 +379,7 @@ ul.menu li ul li a:hover, ul.menu li ul li.current a { color:#079be5 !important;
 	height: 80%;
 	overflow: auto;
 }
-			
+		
 /*----------------------------------------------*/
 /* Main content */
 /*----------------------------------------------*/
@@ -480,6 +480,11 @@ ul.menu li ul li a:hover, ul.menu li ul li.current a { color:#079be5 !important;
 
 
 /* Form */
+.map {
+    margin: 20px 20px 40px 20px;
+    height: 300px;
+    border: 5px solid #f8f8f8;
+}
 
 .postForm {
     margin-top:30px;	

@@ -44,6 +44,18 @@ textarea {
     resize:none;	
 }
 
+ul#lang {
+
+margin-bottom:1em;
+
+
+}
+
+ul#lang li{
+
+	display: inline-block;
+}
+
 .col p {
 	margin-bottom:11px;
 } 
@@ -243,7 +255,7 @@ ul.menu li a {
 	font-size:18px;
 	padding-top:8px !important;
 	padding-left:37px;
-	width:100%;
+	width:276px;
 	text-transform:uppercase;
 	font-family: 'CicleSemi';
 	line-height:14px;

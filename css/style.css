@@ -36,7 +36,8 @@ body {
 
 body p {
 	line-height:20px;
-    font-size:14px;
+    font-size:16px;
+    color: rgb(241, 241, 241);
 }
 
 textarea {
@@ -45,6 +46,11 @@ textarea {
 
 .col p {
 	margin-bottom:11px;
+} 
+
+.col-2 p {
+	margin-bottom:11px;
+	color:rgb(29, 29, 29);
 } 
 /* Floating & Alignment */
 .aligncenter,

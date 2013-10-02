@@ -201,11 +201,11 @@ body.temp_06 {
 
 
 /*----------------------------------------------*/
-/* Aside */
+/* Aside */ 
 /*----------------------------------------------*/
 
 .aside {
-	width:331px;
+	width: 23%; /*320 - 331px*/
 	float:left;
 	margin-right:30px;
 	z-index:20000;
@@ -300,19 +300,21 @@ ul.menu li ul li a:hover, ul.menu li ul li.current a { color:#079be5 !important;
 
 
 .pic_01 { background:url(../images/pic_01.png) no-repeat;}
-.pic_01.active, a.pic_01:hover { background-position:0 -42px;}
+.pic_01.active, a.pic_01:hover { background-position:0 -36px;}
 .pic_02 { background:url(../images/pic_02.png) no-repeat;}
-.pic_02.active, a.pic_02:hover { background-position:0 -52px;} 
+.pic_02.active, a.pic_02:hover { background-position:0 -33px;} 
 .pic_03 { background:url(../images/pic_03.png) no-repeat;} 
-.pic_03.active, a.pic_03:hover { background-position:0 -50px;}	
+.pic_03.active, a.pic_03:hover { background-position:0 -36px;}	
 .pic_04 { background:url(../images/pic_04.png) no-repeat;}
-.pic_04.active, a.pic_04:hover { background-position:0 -50px;}
+.pic_04.active, a.pic_04:hover { background-position:0 -36px;}
 .pic_05 { background:url(../images/pic_05.png) no-repeat;} 
-.pic_05.active, a.pic_05:hover { background-position:0 -35px;}
+.pic_05.active, a.pic_05:hover { background-position:0 -33px;}
 .pic_06 { background:url(../images/pic_06.png) no-repeat;}
 .pic_06.active, a.pic_06:hover { background-position:0  -35px;}	
+.pic_07 { background:url(../images/pic_07.png) no-repeat;} 
+.pic_07.active, a.pic_07:hover { background-position:0 -33px;}
  
-.pic_01, .pic_02, .pic_03, .pic_04, .pic_05, .pic_06 {margin-left:18px;}
+.pic_01, .pic_02, .pic_03, .pic_04, .pic_05, .pic_06, .pic_07 {margin-left:18px;}
 	
 .pic_01 {
 	width:27px;
@@ -321,7 +323,7 @@ ul.menu li ul li a:hover, ul.menu li ul li.current a { color:#079be5 !important;
 
 .pic_02 {
 	width:31px;
-	height:30px;
+	height:28px;
 } 
 
 .pic_03 {
@@ -340,6 +342,10 @@ ul.menu li ul li a:hover, ul.menu li ul li.current a { color:#079be5 !important;
 } 
 
 .pic_06 {
+	width:27px;
+	height:24px;
+} 
+.pic_07 {
 	width:27px;
 	height:24px;
 } 

@@ -172,7 +172,8 @@ body.temp_06 {
 
 #container {
     position:relative;
-	min-height:100%;	
+	min-height:100%;
+	zoom: 90%;	
 }
 
 .col_1 {

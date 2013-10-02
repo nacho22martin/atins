@@ -242,20 +242,23 @@ body.temp_06 {
 
 ul.menu li {
 	background:#1d1d1d;
-	width:330px;
+	width:auto;
 	height:45px;
 	margin-bottom:2px;
+	padding-right: 1em;
 	position:relative;
+	display: table;
+
 } 
 ul.menu li a {
 	top:9px;
 	display:block;
 	position:relative;
 	color:#f6f6f6;
-	font-size:18px;
+	font-size:16px;
 	padding-top:8px !important;
 	padding-left:37px;
-	width:276px;
+	width:auto;
 	text-transform:uppercase;
 	font-family: 'CicleSemi';
 	line-height:14px;
@@ -284,7 +287,6 @@ ul.menu li ul li a {
 	position:relative;
 	color:#f6f6f6 !important;
 	font-size:16px;
-	
 	padding: 0 17px !important;
 	width:196px !important;
 	text-transform:uppercase;

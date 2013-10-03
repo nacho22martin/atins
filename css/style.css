@@ -25,10 +25,15 @@
     font-weight: normal;
     font-style: normal;
 }
-
+@font-face {
+    font-family: 'intro';
+    src: url('fonts/Intro.otf');
+    font-weight: normal;
+    font-style: normal;
+}
 
 body {
-	font-family:Arial;
+	font-family:Tahoma, Geneva, sans-serif;
 	color:#8c8c8c;
 	font-size:14px;
 	line-height:1.4em
@@ -53,9 +58,24 @@ margin-bottom:1em;
 
 ul#lang li{
 
-	display: inline-block;
+	background: #1d1d1d;
+	width: auto;
+	margin-bottom: 2px;
+	padding-right: 1em;
+	padding-left: 1em;
+	position: relative;
+	display: table;
+
 }
 
+ul#lang a{
+
+	color: white;
+}
+
+ul#lang a:hover{
+color:#079be5;
+}	
 .col p {
 	margin-bottom:11px;
 } 
@@ -77,7 +97,7 @@ div.aligncenter {
 
 img.alignleft {
 	float:left;
-	margin-right:30px;
+	
 } 
 
 .alignright {
@@ -159,10 +179,10 @@ body.temp_06 {
 
 .container_12 {
 	margin-bottom:50px;
-	border-radius: 10px;
+	
 	width: 760px;
 	overflow:hidden;
-	background:url(../images/bg_container.png) repeat-y rgba(29, 29, 29, 0.78);
+	background:url(../images/bg_container.png) repeat-y rgba(29, 29, 29, 1);
 }
 
 .container_12.nobg {
@@ -205,7 +225,7 @@ body.temp_06 {
 /*----------------------------------------------*/
 
 .aside {
-	width: 23%; /*320 - 331px*/
+	width: 26%; /*320 - 331px*/
 	float:left;
 	margin-right:30px;
 	z-index:20000;
@@ -238,7 +258,7 @@ body.temp_06 {
 /* Menu */
 /*----------------------------------------------*/
 
-.nav-menu {	padding-top:80px;
+.nav-menu {	padding-top:5px;
 } 
 
 ul.menu li {
@@ -261,7 +281,7 @@ ul.menu li a {
 	padding-left:37px;
 	width:auto;
 	text-transform:uppercase;
-	font-family: 'CicleSemi';
+	font-family: 'intro';
 	line-height:14px;
 	letter-spacing:1px;
 }
@@ -387,7 +407,7 @@ ul.menu li ul li a:hover, ul.menu li ul li.current a { color:#079be5 !important;
 	font-size:28px;
 	color:#f6f6f6;
 	text-transform:uppercase;
-	font-family: 'CicleGordita';
+	font-family: 'intro';
 	font-weight:normal;
 	letter-spacing:1px;
 } 
@@ -395,7 +415,7 @@ ul.menu li ul li a:hover, ul.menu li ul li.current a { color:#079be5 !important;
 #middle h4, #main h4 {
     margin-bottom:1em;
     margin-top: 2em;
-	font-size:16px;
+	font-size:20px;
 	color:#f6f6f6;
 	text-transform:uppercase;
 	font-family: 'CicleGordita';
@@ -547,7 +567,7 @@ ul.menu li ul li a:hover, ul.menu li ul li.current a { color:#079be5 !important;
 	font-family: 'CicleGordita';
 	font-weight:100;
 	letter-spacing:1px;
-	color:#f6f6f6;
+	color: #555555;
 	font-size:16px;
 	background:none;
 	text-transform:uppercase;

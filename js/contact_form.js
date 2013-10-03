@@ -1,11 +1,13 @@
-/*
+	/*
     Google maps
 */
 jQuery(document).ready(function() {
-    var position = new google.maps.LatLng(-25.25913,-57.565597);
-    $('.map').gmap({'center': position,'zoom': 15, 'disableDefaultUI':true, 'callback': function() {
+	
+    var position = new google.maps.LatLng(-25.25913,-57.565597);    
+    $('.map').gmap({'mapTypeId':google.maps.MapTypeId.SATELLITE,'center': position,'zoom': 15, 'disableDefaultUI':true, 'callback': function() {
             var self = this;
             self.addMarker({'position': this.get('map').getCenter() });	
+            
         }
     }); 
 });
@@ -15,6 +17,8 @@ $(function(){
 		
 	//contact form
 	$('#contact_form').submit(function(){
+		$('#submit').hide();
+		$('#send').html('<img src="images/processing.gif" />');
 		var form = this,
 			fields = [
 				{
@@ -43,8 +47,12 @@ $(function(){
 				if (data == 'ok'){
 					alert('Message sent!');
 					form.reset();
+					$('#send').html('');
+					$('#submit').show();
 				}else{
 					alert(data);
+					$('#send').html('');
+					$('#submit').show();
 				}
 			});
 			return false;

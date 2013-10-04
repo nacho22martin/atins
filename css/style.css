@@ -391,8 +391,8 @@ ul.menu li ul li a:hover, ul.menu li ul li.current a { color:#079be5 !important;
 } 
 
 .wrapper {
-	float:left;
-	margin-left: 0;
+	/*float:right;*/
+	margin-right: 2em	;
 	/*margin-top:240px;*/
 } 
 
@@ -407,7 +407,7 @@ ul.menu li ul li a:hover, ul.menu li ul li.current a { color:#079be5 !important;
 
 #middle {
 	padding:30px 20px;
-	width: 720px;
+	width: auto;
     height:100%;
 	overflow:hidden;
 }

@@ -1,5 +1,5 @@
 <?php
-require_once 'lib/swift_required.php';
+require_once '../lib/swift_required.php';
 
 // Email address verification
 function isEmail($email) {
@@ -43,7 +43,7 @@ if($_POST) {
  	$body = ('Nombre: ' . $clientName . ' <br/><br/> ' . 'Email: ' . $clientEmail . ' <br/><br/> ' . 'Mensaje: ' . $message);
 	
 	//Creamos el mensaje
-		$message1 = Swift_Message::newInstance("Correo WEB")
+		$message1 = Swift_Message::newInstance("Correo WEB_EN")
             ->setFrom($clientEmail)
       		->setTo($emailTo)
             ->setBody($body)

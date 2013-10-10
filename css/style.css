@@ -113,6 +113,14 @@ img.alignleft {
 	font-size:0;
 	height:0;
 }	
+#closing{
+	display: inline-block;
+	float: right;
+	font-size: 1.5em;	
+	padding-right: 15px;
+	margin-top: -6px;
+}
+
 
 a {
 	text-decoration:none;

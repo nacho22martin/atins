@@ -865,7 +865,10 @@ ol.commentlist li{
 	font-family: 'CicleSemi';
 	letter-spacing:1px;
 } 
+.copyright a {
 
+color:#8c8c8c;
+}
 ul.social {
     float:right;
 	padding-top:15px;
